@@ -17,4 +17,4 @@ for el in find_item:
     search_str.send_keys(Keys.ENTER)
     time.sleep(2)
     detect = browser.find_element(By.CSS_SELECTOR, ".dropdown-filter__btn.dropdown-filter__btn--burger").text
-    assert detect==el, f'the test dropped, found {detect}'
+    assert detect==el, 'the test dropped'
