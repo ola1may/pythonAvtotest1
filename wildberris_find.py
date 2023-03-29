@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 import time
 
-find_item = ['косметика','мебель','джинсы']
+find_item = ['косметика','мебель','123']
 link = 'https://www.wildberries.ru/'
 browser = webdriver.Chrome()
 browser.maximize_window()
